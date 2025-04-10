@@ -1,5 +1,5 @@
 import React from "react";
-import { useUserContext } from "../ContextProvider";
+import { useUserContext } from "../src/ContextProvider";
 
 function Header() {
   const { cardQuantity, cardAmount } = useUserContext();
