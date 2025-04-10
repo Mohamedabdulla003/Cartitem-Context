@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/App.css";
-import { useUserContext } from "../src/ContextProvider";
+import { useUserContext } from "../ContextProvider";
 
 const Card = () => {
   const {

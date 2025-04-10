@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useUserContext } from "../src/ContextProvider";
+import { useUserContext } from "../ContextProvider";
 
 const Navbar = () => {
   const { cardQuantity } = useUserContext();
